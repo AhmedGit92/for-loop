@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+</head>
+<body>
+
+
+
+  <!-- <script>
+
+    function myf(){
+    
+            var count = Number(document.getElementById("count").value) 
+    for(count=1; count<20;  count++){
+        document.write("The Number is: "+ " : " + count + "<br>") 
+      }
+      
+      
+      }
+    
+    
+    </script>
+    
+    <h2>JavaScript For Loop</h2>
+    <input type="text" onchange="myf()" > 
+    <p id="count"></p> -->
+
+
+
+ 
+    <script>
+      function myf(){
+          var count = Number(document.getElementById("count").value);
+          var result = "";
+          
+          for (count = 1; count <=20; count++) {
+              result += "The Number is: " + count + "<br>";
+          }
+          
+          document.getElementById("output").innerHTML = result;
+      }
+  </script>
+  
+  <h2>JavaScript For Loop</h2>
+  <input type="text" id="count">
+  <button onclick="myf()">Click</button>
+  <div id="output"></div>
+</body>
+</html>
+</body>
+</html>
